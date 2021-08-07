@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="4_in_a_row.css">
+    <script type="text/javascript" src="4_in_a_row.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="4_in_a_row.js"></script>
+    <title>4-in-a-Row </title>
+</head>
+
+<body>
+
+    <div id="container_buttons">
+        <script>CreateInsertButtons();</script>
+    </div>
+
+    <div id = "container_Table">
+        <script>CreateField();</script>
+    </div>
+    
+    <div id = "container_State_Move1">
+        <td id = "Riquadro_Move_1"></td>
+    </div>
+
+    <div id = "container_button">
+       <button onclick = "Reset();" id = "ClearButton">Click to reset</button>
+    </div>
+
+    <div id = "container_State_Move2">
+        <td id = "Riquadro_Move_2"></td>
+    </div>
+</body>
+</html>
